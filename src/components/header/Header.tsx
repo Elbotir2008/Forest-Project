@@ -1,5 +1,5 @@
 import "./header.scss"
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -8,11 +8,11 @@ const Header = () => {
   const [changeColor3, setChangeColor3] = useState(false);
   const [changeColor4, setChangeColor4] = useState(false);
   const [changeColor5, setChangeColor5] = useState(false);
-  const [isShrunk, setShrunk] = useState(false);
+  // const [isShrunk, setShrunk] = useState(false);
 
 
   return (
-    <header style={isShrunk ? { display: "none" } : {}}>
+    <header>
       <div className="container">
         <nav className="flex-class">
           <div className="nav-left flex-class">
