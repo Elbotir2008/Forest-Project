@@ -70,3 +70,67 @@ main {
     }
   }
 }
+
+.modalBox {
+  .flex-class {
+    gap: 1rem;
+    align-items: center;
+    img {
+      width: 1.7px;
+    }
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  margin-top: 2rem;
+  input {
+    padding: 1rem;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: #fff;
+    background-color: transparent;
+    width: 30rem;
+    height: 4rem;
+    &:focus {
+      border-bottom: 1px solid #86da44;
+      &::placeholder {
+        color: #86da44;
+      }
+    }
+  }
+  .checkBox {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    label {
+      font-size: 1.4rem;
+      cursor: pointer;
+      color: #fff;
+    }
+    input[type="checkbox"] {
+      cursor: pointer;
+      accent-color: #86da44;
+      width: 2rem;
+      height: 2rem;
+      margin-right: 1rem;
+    }
+  }
+  button {
+    border-radius: 0.6rem;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #86da44;
+    padding: 1.3rem 4rem;
+    width: 30rem;
+    transition: 0.2s linear;
+    &:hover {
+      background-color: #86da44;
+      color: #fff;
+      transition: 0.2s linear;
+    }
+  }
+}

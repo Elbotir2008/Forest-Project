@@ -1,5 +1,6 @@
 main {
   background-color: #1e1e1e;
+
   .hero-section {
     width: 100%;
     height: 100vh;
@@ -7,16 +8,20 @@ main {
     background-size: cover;
     margin-top: -10rem;
     padding: 15rem 10rem;
+
     .hero-flex {
       align-items: center;
+
       .hero-left {
         margin-left: 3rem;
+
         h1 {
           font-variant-caps: petite-caps;
           width: 45rem;
           color: #fff;
           font-size: 5rem;
         }
+
         p {
           font-size: 2rem;
           color: #eee;
@@ -24,6 +29,7 @@ main {
           font-weight: 300;
           margin-top: 1rem;
         }
+
         button {
           padding: 1rem 4rem;
           border: 1px solid #86da44;
@@ -31,17 +37,20 @@ main {
           color: #fff;
           margin-top: 3rem;
           transition: 0.2s;
+
           &:hover {
             background-color: #86da44;
             color: #fff;
           }
         }
       }
+
       .hero-right {
         cursor: pointer;
         margin-left: 35rem;
       }
     }
+
     .hero-bottom {
       align-items: center;
       margin-top: -2rem;
@@ -50,9 +59,11 @@ main {
       justify-content: space-between;
     }
   }
+
   .about-section {
     width: 100%;
     padding: 10rem 5rem;
+
     .about-top {
       h1 {
         margin-left: -5rem;
@@ -60,9 +71,11 @@ main {
         font-size: 10rem;
         color: #343434;
       }
+
       .flex-class {
         margin-left: 7rem;
         align-items: center;
+
         h2 {
           font-size: 3rem;
           width: 32rem;
@@ -71,23 +84,29 @@ main {
         }
       }
     }
+
     .about-flex {
       gap: 3rem;
+
       .about-left {
         .about0 {
           margin-bottom: 5rem;
+
           .flex-class {
             align-items: center;
+
             h3 {
               color: #343434;
               font-size: 8rem;
             }
+
             h4 {
               margin-top: 3rem;
               color: #86da44;
               font-size: 2rem;
             }
           }
+
           p {
             width: 47rem;
             color: #ccc;
@@ -97,8 +116,10 @@ main {
           }
         }
       }
+
       .about-right {
         margin: -17rem 10rem;
+
         img {
           &:nth-child(2) {
             cursor: pointer;
@@ -108,10 +129,11 @@ main {
       }
     }
   }
+
   .whatWeDo-section {
     width: 100%;
     padding: 5rem;
-    // margin-top: 15rem;
+
     h1 {
       color: #343434;
       letter-spacing: -4px;
@@ -119,14 +141,18 @@ main {
       margin-left: -4rem;
       margin-bottom: 2rem;
     }
+
     .whatWeDo-flex {
       align-items: center;
+
       .whatWeDo-left {
         margin-top: -50rem;
+
         .flex-class {
           align-items: center;
           margin-bottom: 5rem;
           margin-top: 40rem;
+
           h2 {
             color: #fff;
             width: 65rem;
@@ -134,6 +160,7 @@ main {
             font-size: 4rem;
           }
         }
+
         p {
           width: 55rem;
           line-height: 3rem;
@@ -141,6 +168,7 @@ main {
           color: #fefefe;
           font-weight: 400;
         }
+
         button {
           border-left: none;
           border-right: none;
@@ -152,10 +180,12 @@ main {
           font-size: 1.7rem;
         }
       }
+
       .whatWeDo-right {
         img {
           margin-top: -24rem;
           margin-left: 5rem;
+
           &:nth-child(2) {
             margin: 20rem -32rem;
             cursor: pointer;
@@ -164,6 +194,7 @@ main {
       }
     }
   }
+
   .statistics-section {
     width: 100%;
     height: 20rem;
@@ -172,109 +203,135 @@ main {
     margin-bottom: 10rem;
     margin-top: 10rem;
   }
+
   .project-section {
     width: 100%;
     padding: 5rem 6rem;
+
     h1 {
       font-size: 10rem;
       color: #343434;
     }
+
     .flex-class {
       align-items: center;
       margin-left: 12rem;
       margin-top: -3rem;
+
       h2 {
         color: #86da44;
         font-size: 3rem;
         margin-left: 2rem;
       }
     }
+
     .projects-grid {
+      display: grid;
       grid-template-columns: auto auto auto;
-      gap: 3rem;
+      gap: 2rem;
       margin-top: 5rem;
+      margin-left: -2rem;
+
       .projects-grid1 {
         .project-line {
           width: 40rem;
         }
+
         .project-img2 {
           margin-top: -5rem;
         }
+
         .project-flex {
           cursor: pointer;
           align-items: center;
           margin-top: -5rem;
           margin-left: 1rem;
+          position: relative;
+
           &::before {
             content: "";
             position: absolute;
             height: 5.5rem;
             width: 35rem;
-            // padding: 3rem 18rem;
             background-color: rgba(0, 0, 0, 0.69);
             opacity: 0.8;
             filter: blur(2px);
             margin-left: -1rem;
           }
+
           p {
             color: #fff;
             font-size: 1.8rem;
           }
+
           .flex-class {
             gap: 2rem;
             align-items: center;
             margin-top: -0.1rem;
+
             img {
               font-size: 1rem;
               color: #fff;
             }
           }
+
           .flex-class1 {
             margin-left: 4rem;
           }
+
           .flex-class2 {
             margin-left: 10rem;
           }
+
           .flex-class3 {
             margin-left: 11rem;
           }
         }
       }
     }
+
     .project-arrows {
       margin-left: 30rem;
       margin-top: 10rem;
       cursor: pointer;
     }
   }
+
   .partner-section {
     width: 100%;
     padding: 5rem 6rem;
+
     h1 {
       font-size: 10rem;
       color: #343434;
     }
+
     .flex-class {
       align-items: center;
       margin-left: 9rem;
       margin-top: -1rem;
+
       h2 {
         color: #86da44;
         font-size: 3rem;
         margin-left: 2rem;
       }
     }
+
     .partner-grid {
+      display: grid;
       margin-top: 10rem;
       margin-left: 10rem;
       grid-template-columns: auto auto auto auto;
       gap: 8rem 2rem;
+
       img {
         cursor: pointer;
         width: 15rem;
       }
     }
   }
+
   .konsulContact-section {
     width: 100%;
     height: 65rem;
@@ -282,11 +339,16 @@ main {
     margin-top: 10rem;
     background-image: url(../konsulContact-img.svg);
     background-size: cover;
+
     .konsulContact-flex {
+      display: flex;
       gap: 40rem;
+
       .konsulContact-left-right {
         .flex-class {
+          display: flex;
           align-items: center;
+
           h1 {
             margin-left: 2rem;
             color: #86da44;
@@ -294,6 +356,7 @@ main {
           }
         }
       }
+
       .konsulContact-left {
         p {
           line-height: 2.7rem;
@@ -302,11 +365,13 @@ main {
           font-size: 2rem;
           color: #fff;
         }
+
         form {
           display: flex;
           flex-direction: column;
           row-gap: 1rem;
           margin-top: 2rem;
+
           input {
             padding: 1rem;
             border-left: none;
@@ -316,22 +381,28 @@ main {
             background-color: transparent;
             width: 40rem;
             height: 4rem;
+
             &:focus {
               border-bottom: 1px solid #86da44;
+
               &::placeholder {
                 color: #86da44;
               }
             }
           }
+
           .checkBox {
             margin-top: 1rem;
             margin-bottom: 1rem;
+            display: flex;
             align-items: center;
+
             label {
               font-size: 1.4rem;
               cursor: pointer;
               color: #fff;
             }
+
             input[type="checkbox"] {
               cursor: pointer;
               accent-color: #86da44;
@@ -340,21 +411,24 @@ main {
               margin-right: 1rem;
             }
           }
+
           button {
-            border-radius: .6rem;
+            border-radius: 0.6rem;
             background-color: transparent;
             color: #fff;
             border: 1px solid #86da44;
             padding: 1.3rem 5rem;
-            transition: .2s linear;
+            transition: 0.2s linear;
+
             &:hover {
               background-color: #86da44;
               color: #fff;
-              transition: .2s linear;
+              transition: 0.2s linear;
             }
           }
         }
       }
+
       .konsulContact-right {
         h3 {
           font-weight: 200;
@@ -362,11 +436,13 @@ main {
           margin-top: 2rem;
           font-size: 1.5rem;
         }
+
         p {
           margin-top: 1rem;
           font-size: 1.8rem;
           color: #fff;
         }
+
         b {
           display: inline-block;
           font-size: 2rem;
@@ -374,11 +450,554 @@ main {
           margin-bottom: 3rem;
           color: #fff;
         }
+
         .flex-class {
+          display: flex;
+          align-items: center;
           margin-top: 3rem;
           gap: 2rem;
+
           img {
             cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  // Responsive Styles
+  @media (max-width: 1200px) {
+    .hero-section {
+      padding: 10rem 5rem;
+
+      .hero-flex {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .hero-left {
+          h1 {
+            width: 100%;
+            font-size: 4rem;
+          }
+
+          p {
+            width: 100%;
+            font-size: 1.8rem;
+          }
+        }
+
+        .hero-right {
+          margin-left: 0;
+          margin-top: 5rem;
+        }
+      }
+    }
+
+    .about-section {
+      padding: 5rem 3rem;
+
+      .about-top {
+        h1 {
+          margin-left: 0;
+          font-size: 8rem;
+        }
+
+        .flex-class {
+          margin-left: 0;
+
+          h2 {
+            font-size: 2.5rem;
+            width: 100%;
+          }
+        }
+      }
+
+      .about-flex {
+        flex-direction: column;
+
+        .about-left {
+          .about0 {
+            p {
+              width: 100%;
+              font-size: 1.5rem;
+              margin-left: 0;
+            }
+          }
+        }
+
+        .about-right {
+          margin: 0;
+
+          img {
+            margin: 0;
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+
+    .whatWeDo-section {
+      padding: 3rem 2rem;
+
+      h1 {
+        font-size: 6rem;
+      }
+
+      .whatWeDo-flex {
+        flex-direction: column;
+
+        .whatWeDo-left {
+          margin-top: 0;
+
+          .flex-class {
+            margin-top: 20rem;
+
+            h2 {
+              width: 100%;
+              font-size: 3rem;
+            }
+          }
+
+          p {
+            width: 100%;
+            font-size: 1.6rem;
+          }
+        }
+
+        .whatWeDo-right {
+          img {
+            margin: 0;
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+
+    .project-section {
+      padding: 3rem 2rem;
+
+      h1 {
+        font-size: 8rem;
+      }
+
+      .flex-class {
+        margin-left: 0;
+
+        h2 {
+          font-size: 2.5rem;
+        }
+      }
+
+      .projects-grid {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+      }
+
+      .project-arrows {
+        margin-left: 0;
+        margin-top: 5rem;
+      }
+    }
+
+    .partner-section {
+      padding: 3rem 2rem;
+
+      h1 {
+        font-size: 8rem;
+      }
+
+      .flex-class {
+        margin-left: 0;
+
+        h2 {
+          font-size: 2.5rem;
+        }
+      }
+
+      .partner-grid {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0;
+      }
+    }
+
+    .konsulContact-section {
+      padding: 5rem 2rem;
+
+      .konsulContact-flex {
+        flex-direction: column;
+
+        .konsulContact-left-right {
+          .flex-class {
+            margin-left: 0;
+
+            h1 {
+              font-size: 2.5rem;
+            }
+          }
+        }
+
+        .konsulContact-left {
+          p {
+            width: 100%;
+            font-size: 1.8rem;
+          }
+
+          form {
+            input {
+              width: 100%;
+            }
+          }
+        }
+
+        .konsulContact-right {
+          h3 {
+            font-size: 1.3rem;
+          }
+
+          p {
+            font-size: 1.6rem;
+          }
+
+          b {
+            font-size: 1.8rem;
+          }
+
+          .flex-class {
+            img {
+              width: 2rem;
+              height: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 8rem 2rem;
+      .smallLine {
+        display: none;
+      }
+      .pause {
+        display: none;
+      }
+      .hero-flex {
+        margin-left: -2rem;
+        text-align: center;
+        .hero-left {
+          margin-top: 20rem;
+          h1 {
+            font-size: 3rem;
+          }
+
+          p {
+            font-size: 1.5rem;
+          }
+        }
+      }
+      .hero-bottom {
+        display: none;
+      }
+    }
+
+    .about-section {
+      padding: 3rem 1rem;
+
+      .about-top {
+        h1 {
+          font-size: 6rem;
+        }
+
+        .flex-class {
+          h2 {
+            font-size: 2rem;
+          }
+        }
+      }
+      .pause {
+        display: none;
+      }
+    }
+
+    .whatWeDo-section {
+      padding: 2rem 1rem;
+
+      h1 {
+        font-size: 5rem;
+        text-align: center;
+        margin-bottom: -18rem;
+      }
+
+      .whatWeDo-flex {
+        .whatWeDo-left {
+          .flex-class {
+            h2 {
+              font-size: 2.5rem;
+            }
+          }
+
+          p {
+            font-size: 1.4rem;
+          }
+        }
+      }
+      .pause {
+        display: none;
+      }
+    }
+
+    .project-section {
+      padding: 2rem 1rem;
+
+      h1 {
+        text-align: center;
+        font-size: 6rem;
+      }
+
+      .flex-class {
+        .project-line {
+          display: none;
+        }
+        h2 {
+          margin-left: 11.5rem;
+          margin-top: 3rem;
+          font-size: 2rem;
+        }
+      }
+      .projects-grid {
+        margin-left: 1.5rem;
+        .partnerImg1 {
+          width: 30rem;
+          &:nth-child(1) {
+            margin-top: 3rem;
+          }
+        }
+        .flex-class {
+          display: none;
+        }
+      }
+    }
+
+    .statistics-section {
+      margin-bottom: -10rem;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .partner-section {
+      padding: 2rem 1rem;
+
+      margin-top: 10rem;
+      h1 {
+        text-align: center;
+        font-size: 6rem;
+      }
+
+      .flex-class {
+        margin-left: 7.5rem;
+        .smallLine {
+          display: none;
+        }
+        h2 {
+          font-size: 2.5rem !important;
+        }
+      }
+
+      .partner-grid {
+        margin-left: 9rem;
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .konsulContact-section {
+      padding: 3rem 1rem;
+      text-align: center;
+      margin-bottom: -10rem;
+      .smallLine {
+        display: none;
+      }
+      .konsulContact-flex {
+        .konsulContact-left-right {
+          .flex-class {
+            h1 {
+              margin-left: 11rem;
+              font-size: 2rem;
+            }
+          }
+        }
+
+        .konsulContact-left {
+          p {
+            font-size: 1.5rem;
+          }
+        }
+
+        .konsulContact-right {
+          display: none;
+          h3 {
+            font-size: 1.2rem;
+          }
+
+          p {
+            font-size: 1.4rem;
+          }
+
+          b {
+            font-size: 1.6rem;
+          }
+
+          .flex-class {
+            img {
+              width: 1.5rem;
+              height: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero-section {
+      padding: 5rem 1rem;
+
+      .hero-flex {
+        .hero-left {
+          h1 {
+            font-size: 2.5rem;
+          }
+
+          p {
+            font-size: 1.2rem;
+          }
+
+          button {
+            padding: 0.8rem 3rem;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+
+    .about-section {
+      padding: 2rem 1rem;
+
+      .about-top {
+        h1 {
+          font-size: 4rem;
+        }
+
+        .flex-class {
+          h2 {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+
+    .whatWeDo-section {
+      padding: 1rem 1rem;
+
+      h1 {
+        font-size: 4rem;
+      }
+
+      .whatWeDo-flex {
+        .whatWeDo-left {
+          .flex-class {
+            h2 {
+              font-size: 2rem;
+            }
+          }
+
+          p {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+
+    .project-section {
+      padding: 1rem 1rem;
+
+      h1 {
+        font-size: 4rem;
+      }
+
+      .flex-class {
+        h2 {
+          font-size: 1.5rem;
+        }
+      }
+      .project-arrows {
+        display: none;
+      }
+    }
+
+    .partner-section {
+      padding: 1rem 1rem;
+
+      h1 {
+        font-size: 4rem;
+      }
+
+      .flex-class {
+        h2 {
+          font-size: 1.5rem;
+        }
+      }
+
+      .partner-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .konsulContact-section {
+      padding: 2rem 1rem;
+
+      .konsulContact-flex {
+        .konsulContact-left-right {
+          .flex-class {
+            h1 {
+              font-size: 1.5rem;
+            }
+          }
+        }
+
+        .konsulContact-left {
+          p {
+            font-size: 1.2rem;
+          }
+
+          form {
+            input {
+              width: 100%;
+              font-size: 1.2rem;
+            }
+          }
+        }
+
+        .konsulContact-right {
+          h3 {
+            font-size: 1rem;
+          }
+
+          p {
+            font-size: 1.2rem;
+          }
+
+          b {
+            font-size: 1.4rem;
+          }
+
+          .flex-class {
+            img {
+              width: 1.2rem;
+              height: 1.2rem;
+            }
           }
         }
       }

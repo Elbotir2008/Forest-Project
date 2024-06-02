@@ -5,14 +5,14 @@ const Home = () => {
       <section className="hero-section" id="hero">
         <div className="container">
           <div className="hero-flex flex-class">
-            <img src="./hero-line.svg" alt="Eror" />
+            <img src="./hero-line.svg" className="smallLine" alt="Eror" />
             <div className="hero-left">
               <h1>посреди <span>леса</span> далеко от шума</h1>
               <p>Равным образом реализация намеченных плановых заданий широкому кругу (специалистов) участие в формировании</p>
               <button>Связаться с нами</button>
             </div>
             <div className="hero-right">
-              <img src="./pause.svg" alt="Eror" />
+              <img src="./pause.svg" className="pause" alt="Eror" />
             </div>
           </div>
           <div className="hero-bottom flex-class">
@@ -58,7 +58,7 @@ const Home = () => {
             </div>
             <div className="about-right">
               <img src="./about-img.svg" alt="Error" />
-              <img src="./pause.svg" alt="Error" />
+              <img src="./pause.svg" className="pause" alt="Error" />
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@ const Home = () => {
             </div>
             <div className="whatWeDo-right">
               <img src="./whatWeDo-img.svg" alt="Error" />
-              <img src="./pause.svg" alt="Error" />
+              <img src="./pause.svg" className="pause" alt="Error" />
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@ const Home = () => {
           </div>
           <div className="projects-grid grid-class">
             <div className="projects-grid1">
-              <img src="./project-img1.svg" alt="Error" />
+              <img src="./project-img1.svg" className="partnerImg1" alt="Error" />
               <div className="flex-class project-flex">
                 <p>Лесный дом в Новосибирске</p>
                 <div className="flex-class flex-class1">
@@ -129,7 +129,7 @@ const Home = () => {
               </div>
             </div>
             <div className="projects-grid1">
-              <img src="./project-img2.svg" className="project-img2" alt="Error" />
+              <img src="./project-img2.svg" className="project-img2 partnerImg1" alt="Error" />
               <div className="flex-class project-flex">
                 <p>Коттедж в Краснодаре</p>
                 <div className="flex-class flex-class2">
@@ -139,7 +139,7 @@ const Home = () => {
               </div>
             </div>
             <div className="projects-grid1">
-              <img src="./project-img3.svg" alt="Error" />
+              <img src="./project-img3.svg" className="partnerImg1" alt="Error" />
               <div className="flex-class project-flex">
                 <p>Коттедж в Новгороде</p>
                 <div className="flex-class flex-class3">
@@ -156,7 +156,7 @@ const Home = () => {
         <div className="container">
           <h1>ПАРТНЕРЫ</h1>
           <div className="flex-class">
-            <img src="./about-line.svg" alt="Error" />
+            <img src="./about-line.svg" className="smallLine" alt="Error" />
             <h2>наши партнеры</h2>
           </div>
           <div className="partner-grid grid-class">
@@ -176,7 +176,7 @@ const Home = () => {
           <div className="konsulContact-flex flex-class">
             <div className="konsulContact-left konsulContact-left-right">
               <div className="flex-class">
-                <img src="./about-line.svg" alt="Error" />
+                <img src="./about-line.svg" className="smallLine" alt="Error" />
                 <h1>КОНСУЛЬТАЦИЯ</h1>
               </div>
               <p>
