@@ -1,0 +1,43 @@
+footer {
+  width: 100%;
+  height: 10rem;
+  background-color: black;
+  padding: 3rem 3rem;
+  .footer-flex {
+    justify-content: space-between;
+    align-items: center;
+    .footer-left {
+      align-items: center;
+      h3 {
+        margin-left: 5rem;
+        color: #fff;
+        font-weight: 400;
+      }
+    }
+    .footer-middle {
+      ul {
+        gap: 2rem;
+        li {
+          a {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #fff;
+          }
+        }
+      }
+    }
+    .footer-right {
+        .arrow-up {
+            width: 4rem;
+            margin-right: 12rem;
+        }
+        .flex-class {
+            gap: 1rem;
+        }
+        img {
+            cursor: pointer;
+            width: 2.3rem;
+        }
+    }
+  }
+}

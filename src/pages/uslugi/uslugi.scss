@@ -1,0 +1,122 @@
+main {
+  .glavUslugi-section {
+    width: 100%;
+    padding: 25rem 0rem;
+    margin-top: -10rem;
+    h3 {
+      margin-top: -10rem;
+      margin-bottom: 10rem;
+      font-size: 1.6rem;
+      color: #eee;
+    }
+    h1 {
+      color: #343434;
+      letter-spacing: -4px;
+      font-size: 8rem;
+      margin-left: -4rem;
+      margin-bottom: 2rem;
+    }
+    .whatWeDo-flex {
+      align-items: center;
+      .whatWeDo-left {
+        margin-right: 13rem;
+        margin-top: -45rem;
+        .flex-class {
+          align-items: center;
+          margin-bottom: 5rem;
+          margin-top: 40rem;
+          h2 {
+            color: #fff;
+            width: 48rem;
+            margin-left: 2rem;
+            font-size: 4rem;
+          }
+        }
+        p {
+          width: 55rem;
+          line-height: 3rem;
+          font-size: 1.8rem;
+          color: #fefefe;
+          font-weight: 400;
+        }
+        button {
+          width: 17em;
+          padding: 1rem;
+          border: 1px solid #86da44;
+          background-color: transparent;
+          color: #fff;
+          margin-top: 3rem;
+          transition: 0.2s;
+          &:hover {
+            background-color: #86da44;
+            color: #fff;
+          }
+        }
+      }
+      .whatWeDo-right {
+        img {
+          margin-top: -24rem;
+          //   margin-left: 5rem;
+          &:nth-child(2) {
+            margin: 32rem -39rem;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .zayafku-section {
+    width: 100%;
+    height: 40rem;
+    background-image: url(../uslugiZayafka-img.svg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 5rem;
+    h2 {
+      font-size: 2rem;
+      color: #ccc;
+    }
+    h1 {
+      font-size: 4rem;
+      color: #86da44;
+    }
+    .flex-class {
+      margin-top: 10rem;
+      justify-content: space-evenly;
+      align-items: center;
+      input {
+        font-size: 1.7rem;
+        width: 40rem;
+        height: 3rem;
+        background-color: transparent;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        color: #fff;
+        border-bottom: 2px solid #fff;
+        transition: 0.1s linear;
+        &:focus {
+          transition: 0.1s linear;
+          border-bottom: 2px solid #86da44;
+          &::placeholder {
+            color: #86da44;
+          }
+        }
+      }
+      button {
+        width: 17em;
+        padding: 1rem;
+        border: 1px solid #86da44;
+        background-color: transparent;
+        color: #fff;
+        font-weight: 700;
+        margin-top: 3rem;
+        transition: 0.2s;
+        &:hover {
+          background-color: #86da44;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
